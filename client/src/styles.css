@@ -1,0 +1,110 @@
+body {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	font-family: "Lato", sans-serif;
+}
+.main {
+	display: flex;
+	background-color: #eee;
+	min-height: 100vh;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.step{
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(245,245,245);
+	box-shadow: 0 10px 20px 2px rgba(0,0,0,0.1);
+	padding: 40px;
+	border-radius: 6px;
+	max-width: 600px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.step--active{
+	display: flex;
+}
+
+.step--lose{
+	color: white;
+	background-color: #da6565;
+}
+
+.step--lose button{
+	background-color: #ad4747;
+}
+
+.step--win{
+	color: white;
+	background-color: #3da052;
+}
+
+.step--win button{
+	background-color: #247b36;
+}
+
+h1.header {
+	font-weight: 900;
+	font-size: 32px;
+	margin: 0 0 12px;
+}
+
+p{
+	margin: 0;
+}
+
+p.copy {
+	font-size: 16px;
+	margin: 0 0 24px;
+}
+
+p.progress{
+	font-style: italic;
+	font-size: 14px;
+	color: #555;
+	display: none;
+}
+
+button{
+	border: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 16px 20px;
+	flex: 0 0 auto;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.nav-button{
+	color:white;
+	background-color: green;
+	box-shadow: 0 3px 5px 1px rgba(0,0,0,0.1);
+}
+
+.game-field{
+}
+
+.word-toast{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: #ccc;
+}
+
+.word-toast:last-of-type{
+	margin: 0;
+}
+
+.word-toast:hover{
+	background-color: #39a2c1;
+	color: white;
+}
+
+.nav-button:hover{
+}
